@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='mexbt_transfer_api',
-      version='0.2',
+      version='0.3',
       description='A lightweight python client for the meXBT Transfer API',
       url='http://github.com/meXBT/transfer-api-python',
       author='meXBT',

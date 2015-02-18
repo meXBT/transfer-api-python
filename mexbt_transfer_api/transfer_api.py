@@ -56,7 +56,7 @@ class TransferAPI:
 
     def create_order(self, in_currency, out_currency, out_via, webhook,
             in_amount=0, out_amount=0, sender_info={}, recipient_info={},
-            skip_deposit_address_setup=True):
+            skip_deposit_address_setup=False):
         """
         Create an order
         """
