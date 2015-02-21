@@ -91,14 +91,13 @@ class TransferAPI:
         assert type(order_id) is int
         assert type(modifications_dict) is dict
 
-        VALID_KEYS = (
+        REQUIRED_KEYS = (
                 'sender_info',
                 'recipient_info',
-                'out',
                 'setup_deposit_address',
                 )
         for k in modifications_dict:
-            assert k in VALID_KEYS, k
+            assert k in REQUIRED_KEYS, k
 
         uri = 'orders/%s/modify' % order_id
 
