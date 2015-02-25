@@ -34,3 +34,6 @@ api.get_order(123)
 api.modify_order(123, {'sender_info': {'name': 'Jane Doe'}})
 
 ```
+## Acknowledgements
+
+Thanks to [Michael Flaxman](https://github.com/mflaxman) who wrote most of the code for the original version. 
